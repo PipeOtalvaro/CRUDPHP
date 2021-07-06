@@ -22,7 +22,7 @@ class Loteria
 
         for ($i = 0; $i < $this->intentos; $i++) {
             $int = rand($minimo, $maximo);
-            self::intentos($int);
+            $this->intentos($int);
         }
     }
     public function intentos($int)
