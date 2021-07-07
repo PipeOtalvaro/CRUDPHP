@@ -24,7 +24,6 @@ class Facebook
 
     private function cambiarPass($pass)
     {
-
         $this->pass = $pass;
     }
 }
